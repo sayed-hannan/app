@@ -1,0 +1,39 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+[params]
+  author = "Sayed Hanan"
+
+[taxonomies]
+category = "categories"
+
+[permalinks]
+  blog = "/:section/:title/"
+
+[[menu.main]]
+name = "Categories"
+url = "/categories/"
+weight = 1
+
+
+[markup]
+  [markup.markdown]
+    [markup.markdown.goldmark]
+      [markup.markdown.goldmark.parser]
+        [markup.markdown.goldmark.parser.extensions]
+          footnotes = true
+          strikethrough = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+
+
+

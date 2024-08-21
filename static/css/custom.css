@@ -1,0 +1,128 @@
+/* custom.css */
+
+/* Heading styles */
+.markdown-content h1 {
+    font-size: 2.25em;
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.markdown-content h2 {
+    font-size: 1.75em;
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.markdown-content h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/* Paragraph styles */
+.markdown-content p {
+    margin-bottom: 1em;
+}
+
+/* Text formatting */
+.markdown-content strong {
+    font-weight: 700;
+}
+
+.markdown-content a {
+    color: #3182ce;
+    text-decoration: underline;
+}
+
+/* Lists */
+.markdown-content ul, .markdown-content ol {
+    margin-bottom: 1em;
+    padding-left: 2em;
+}
+
+.markdown-content li {
+    margin-bottom: 0.5em;
+}
+
+/* Blockquotes */
+.markdown-content blockquote {
+    border-left: 4px solid #117df0;
+    padding-left: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-style: italic;
+}
+
+/* Inline code */
+.markdown-content code {
+    background-color: #282c34;
+    padding: 0.2em 0.4em;
+    border-radius: 0.25em;
+    color: #abb2bf;
+}
+
+/* Code blocks */
+.markdown-content pre {
+    background-color: #282c34;
+    color: #abb2bf;
+    padding: 1em;
+    overflow-x: auto;
+    border-radius: 0.25em;
+    border: 1px solid #3e4451;
+}
+
+/* Code block container */
+.code-block {
+    position: relative;
+    margin-bottom: 1em;
+}
+
+/* Code block */
+.code-block pre {
+    padding-top: 2.5em;  /* Make room for the copy button */
+    margin: 0;
+}
+
+/* Copy button */
+.copy-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 3px 8px;
+    background-color: #3e4451;
+    color: #abb2bf;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8em;
+    transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+    background-color: #4b5263;
+}
+
+/* Syntax highlighting */
+/* .highlight {
+    background-color: #282c34;
+    color: #abb2bf;
+} */
+
+
+/* overidding  prime js */
+/* code[class*=language-], pre[class*=language-] {
+    text-shadow: none !important;
+} */
+
+code[class*=language-], pre[class*=language-] {
+    color: #b8b4b4;
+    /* background: 0 0; */
+    /* text-shadow: 0 0px #fff; */
+}
+
+
+
+/* Adding css for recommended posts partial */
